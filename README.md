@@ -71,6 +71,9 @@ php artisan vendor:publish --tag=adminlte --force
 
 **强制刷新**后查看效果
 
+## 已知BUG
+- editable 样式错乱
+
 ## 鸣谢
 
 * [almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
