@@ -31,39 +31,39 @@ php artisan vendor:publish --tag=adminlte --force
 
 ```php
 'extensions' => [
-   'adminlte3' => [
-		'theme' => [
-			/*
-			|--------------------------------------------------------------------------
-			|Navbar Theme
-			|--------------------------------------------------------------------------
-			|    "bg-primary", "bg-info", "bg-success", "bg-danger"
-			|    "bg-warning", "bg-white", "bg-gray-light"
-			*/
-			
-			'navbar'    => 'bg-primary',
-			
-			/*
-			|--------------------------------------------------------------------------
-			|Sidebar Theme
-			|--------------------------------------------------------------------------
-			|    "sidebar-dark-primary", "sidebar-dark-warning", "sidebar-dark-info", "sidebar-dark-danger", "sidebar-dark-success"
-			|    "sidebar-light-primary", "sidebar-light-warning", "sidebar-light-info", "sidebar-light-danger", "sidebar-light-success"
-			*/
-			
-			'sidebar'   => 'sidebar-dark-primary',
-			
-			/*
-			|--------------------------------------------------------------------------
-			|LOGO Theme
-			|--------------------------------------------------------------------------
-			|    "bg-primary", "bg-info", "bg-success", "bg-danger"
-			|    "bg-warning", "bg-white", "bg-gray-light"
-			*/
-			
-			'logo'      => ''
-		]
-	]
+    'adminlte3' => [
+        'theme' => [
+            /*
+            |--------------------------------------------------------------------------
+            |Navbar Theme
+            |--------------------------------------------------------------------------
+            |    "bg-primary", "bg-info", "bg-success", "bg-danger"
+            |    "bg-warning", "bg-white", "bg-gray-light"
+            */
+            
+            'navbar'    => 'bg-primary',
+            
+            /*
+            |--------------------------------------------------------------------------
+            |Sidebar Theme
+            |--------------------------------------------------------------------------
+            |    "sidebar-dark-primary", "sidebar-dark-warning", "sidebar-dark-info", "sidebar-dark-danger", "sidebar-dark-success"
+            |    "sidebar-light-primary", "sidebar-light-warning", "sidebar-light-info", "sidebar-light-danger", "sidebar-light-success"
+            */
+            
+            'sidebar'   => 'sidebar-dark-primary',
+            
+            /*
+            |--------------------------------------------------------------------------
+            |LOGO Theme
+            |--------------------------------------------------------------------------
+            |    "bg-primary", "bg-info", "bg-success", "bg-danger"
+            |    "bg-warning", "bg-white", "bg-gray-light"
+            */
+            
+            'logo'      => ''
+        ]
+    ]
 ]
 ```
 
