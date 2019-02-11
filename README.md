@@ -4,7 +4,7 @@
 
 ## 依赖
 
-laravel-admin >= 1.6
+laravel-admin >= 1.6.9
 
 ## 截图
 
@@ -31,7 +31,7 @@ php artisan vendor:publish --tag=adminlte --force
 
 ```php
 'extensions' => [
-    'adminlte3' => [
+    'adminlte' => [
         'theme' => [
             /*
             |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ php artisan vendor:publish --tag=adminlte --force
             |    "bg-warning", "bg-white", "bg-gray-light"
             */
             
-            'navbar'    => 'bg-primary',
+            'navbar'    => 'bg-white',
             
             /*
             |--------------------------------------------------------------------------
